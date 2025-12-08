@@ -1,0 +1,10 @@
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/OrderServiceApplication.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/client/InventoryClient.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/config/OpenAPIConfig.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/config/RestClientConfig.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/controller/OrderController.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/dto/OrderRequest.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/event/OrderPlacedEvent.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/model/Order.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/repository/OrderRepository.java
+/Users/himank.jain/Desktop/Desktop/Java/Shopping Management/order-service/src/main/java/com/java/microservices/order/service/OrderService.java
