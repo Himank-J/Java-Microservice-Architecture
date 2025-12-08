@@ -1,0 +1,24 @@
+server:
+  port: 9001
+
+spring:
+  application:
+    name: api-gateway-eureka
+  cloud:
+    gateway:
+      routes:
+      - id: productModule
+        uri: lb://product-service
+        predicates:
+        - Path=/api/product/**
+        filters:
+        - RewritePath=/api/product/(?<segment>.*), /api/product/${segment}
+      - id: orderModule
+        uri: lb://order-service
+        predicates:
+        - Path=/api/order/**
+        
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8089/eureka
